@@ -1,0 +1,76 @@
+<html>
+
+<head>
+
+<title>Contact us Form</title>
+
+<style type="text/css">
+	
+	#con{
+
+ color: royalblue;
+	}
+
+	#con2{
+
+		color: cadetblue;
+	}
+
+#name{
+
+		color: orangered ;
+	}
+	#email{
+
+		color: peru ;
+	}
+	#state{
+
+		color: greenyellow ;
+	}
+	#issue{
+
+		color: paleturquoise ;
+	}
+
+	.submit{
+
+		border: 5px; 
+	}
+</style>
+
+</head>
+
+<body>
+
+<center><h1 id="con" >Contact Us</h1></center>
+<hr>
+<form>
+
+<center><h4 id="con2" >Contact Us</h4></center>
+
+<label id="name">Name :</label>  <input type="text" required name="name" placeholder="Enter name" ><br><br>
+
+
+<label id="email">Email :</label>  <input type="email" required pattern="[a-zA-Z @]" name="eamil" placeholder="Enter email" ><br><br>
+
+<label id="state">State</label>   <select required>
+	<option>MH</option>
+	<option>GJ</option>
+	<option>AP</option>
+	<option>KN</option>
+    
+</select> 
+<br><br>
+
+<label id="issue"> Your Issue :</label> 
+ <textarea autofocus></textarea><br><br>
+<br>
+
+<input class="submit" type="submit" value="submit"><br><br>
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.heading{
+
+	text-align: center;
+	
+}
+#solid{
+
+border-width: 5px;
+border-style:solid ;
+background-color: greenyellow;
+border-color: PINK;
+
+}
+#dashed{
+
+border-width: 5px;
+border-style:dashed ;
+background-color: greenyellow;
+border-color: PINK;
+
+	
+}
+#dotted{
+
+border-width: 5px;
+border-style:dotted ;
+background-color: greenyellow;
+border-color: PINK;
+	
+}
+#groove{
+
+	
+border-width: 5px;
+border-style:groove ;
+background-color: greenyellow;
+border-color: PINK;
+}
+#ridge{
+
+border-width: 5px;
+border-style:ridge ;
+background-color: greenyellow;
+border-color: PINK;
+	
+}
+#inset{
+
+	
+border-width: 5px;
+border-style:inset ;
+background-color: greenyellow;
+border-color: PINK;
+}
+#outset{
+
+border-width: 5px;
+border-style:outset ;
+background-color: greenyellow;
+border-color: PINK;
+	
+}
